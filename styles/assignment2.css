@@ -854,4 +854,8 @@ h5 {
     .copyright{
         margin-left: 100px;
     }
+    .foot-style{
+        width: 100%;
+        height: 375px;
+    }
 }
