@@ -283,6 +283,113 @@ button {
     margin-left: 12px;
 }
 
+/* why choose us part start */
+.section3 {
+    padding: 100px 135px 0px 135px;
+}
+
+.why-us {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why-us-des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    padding-left: 260px;
+}
+
+.hotel {
+    width: 64px;
+    height: 64px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hotel-desc {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.hotel-map {
+    display: flex;
+}
+
+.map {
+    width: 64px;
+    height: 64px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.hotel-display {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 24px;
+}
+
+.map-display {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+    width: 64px;
+    height: 64px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.price-desc {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.price-display {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 24px 298px 0px 298px;
+}
+
 @media screen and (max-width: 600px) {
 
     img {
@@ -383,44 +490,113 @@ button {
     .rect58 {
         flex-direction: column;
     }
-    .rect5, .rect8{
+
+    .rect5,
+    .rect8 {
         width: 100%;
     }
-    .rect5{
-        margin-top:  16px;
+
+    .rect5 {
+        margin-top: 16px;
     }
-    .rect8{
+
+    .rect8 {
         margin: 16px 0px 0px 0px;
     }
-    .rect679{
-        display:inline;
+
+    .rect679 {
+        display: inline;
     }
-    .rect6{
+
+    .rect6 {
         width: 100%;
         height: 286px;
         margin-top: 16px;
     }
-    .rect7{
+
+    .rect7 {
         width: 100%;
         margin-left: 0px;
         margin-top: 16px;
     }
-    .rect9{
+
+    .rect9 {
         width: 100%;
         margin-top: 16px;
         margin-left: 0px;
     }
-    .rect1110{
+
+    .rect1110 {
         display: inline;
     }
-    .rect11{
+
+    .rect11 {
         width: 100%;
         margin-top: 16px;
     }
-    .rect10{
+
+    .rect10 {
         width: 100%;
         margin-top: 16px;
-        margin-left: 0px; 
-        margin-bottom: 500px;
+        margin-left: 0px;
     }
+
+    .section3 {
+        padding: 0px;
+    }
+
+    .why-us {
+        font-size: 20px;
+    }
+
+    .why-us-des {
+        font-size: 14px;
+        width: 309px;
+        padding-left: 45px;
+    }
+
+    .hotel-map {
+        flex-direction: column;
+    }
+
+    .hotel-display {
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 16px;
+
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .hotel-desc {
+        width: 217px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 30px;
+    }
+
+    .map-display {
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 16px;
+    }
+
+    .price-display {
+        width: 100%;
+        padding-bottom: 20px;
+        margin: 0px;
+        margin-bottom: 400px;
+    }
+
+    .price-desc {
+        width: 217px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 30px;
+    }
+
+
 }
